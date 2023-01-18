@@ -1,0 +1,33 @@
+/* Color Pallete
+071013 - Rich Black
+F8F7F9 - Cultured
+1D8A99 - Metallic Seaweed
+8D818C - Taupe Gray
+917C78 - Cinerous
+*/
+body{
+    margin: 0;
+    width: 100%;
+}
+.header{
+    z-index: 0px;
+    background-color: #1D8A99;
+    color: #f8f7f9;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+}
+.header-container{
+    width: 100%;
+}
+.header-link{
+    margin: 15px;
+    color: #f8f7f9;
+    padding: 30px
+}
+.header-link:hover{
+    background-color: #8D818C;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+}
