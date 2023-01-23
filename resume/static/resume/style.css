@@ -12,6 +12,14 @@ body{
 .header{
     z-index: 0px;
     background-color: #1D8A99;
+    position: fixed;
+    color: #f8f7f9;
+    text-decoration: none;
+    padding: 30px;
+    display: block;
+}
+.footer{
+    background-color: #1D8A99;
     color: #f8f7f9;
     text-decoration: none;
     padding: 30px;
