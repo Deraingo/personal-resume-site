@@ -1,17 +1,31 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Utah State University, Logan Utah" />
-    <meta name="author" content="Daniel Wakefield - 2022" />
+    <meta name="description" content="Resume Site" />
+    <meta name="author" content="Daniel Wakefield - 2023" />
     <meta name="language" content="en" />
     <meta name="robots" content="follow, all" />
     <meta name="revisit-after" content="5 days" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" href="{% load static %}" rel="stylesheet" />
+    <link type="text/css" href="{% static 'resume/style.css' %}" rel="stylesheet" />
+    <script src="{% static 'resume/script.js' %}"></script>
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <div class="header-container">
+            <div class="header">
+                <a class="header-link" href="/index">Home</a>
+                <a class="header-link" href="https://github.com/Deraingo"> My Github</a>
+            </div>
+        </div>
+
+        
+
+        <div class="footer">
+        </div>
+    </div>
 </body>
 </html>
